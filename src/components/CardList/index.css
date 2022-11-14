@@ -1,0 +1,138 @@
+.card-list-li-card {
+  padding: 15px;
+  list-style-type: none;
+  box-shadow: 6px 6px 10px #ededed;
+  margin: 20 0px;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.add-red {
+  background-color: lightsalmon;
+}
+
+@media (min-width: 768px) {
+  .card-list-li-card {
+    width: 40%;
+  }
+}
+
+.card-list-name-heading {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  height: 7px;
+}
+
+.name-img-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-list-person-name {
+  font-size: 12px;
+  font-weight: 400;
+  height: 7px;
+  color: #9fa19f;
+  margin-right: 5px;
+}
+.card-software-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-image {
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.expiry-limit-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.card-list-add {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+  width: 32%;
+  max-height: 20px;
+}
+
+.dot-para {
+  height: 6px;
+  width: 100%;
+  background-color: green;
+  border-radius: 4px;
+  color: green;
+}
+
+.dot-another-para {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(241, 113, 134);
+  color: white;
+  margin-right: 5px;
+}
+
+.pink-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+}
+
+.pink-dot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.spent {
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+
+.spent-value {
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.dot-another-para1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  margin-right: 5px;
+}
+
+.buttons-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 5px;
+  min-width: 60px;
+  border-width: 1px;
+}

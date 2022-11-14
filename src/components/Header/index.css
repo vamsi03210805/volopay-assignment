@@ -1,0 +1,127 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.header-first-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.header-second-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 42%;
+  justify-content: space-between;
+  padding: 10px;
+  border: none;
+  height: 22px;
+  box-shadow: 0px 2px 2px 0px #ededed;
+  border-radius: 4px;
+}
+.header-cam-icon {
+  color: blue;
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  margin-top: 6px;
+}
+
+.header-first-para {
+  color: blue;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 14px;
+}
+.header-second-para {
+  font-size: 14px;
+}
+
+@media (min-width: 786px) {
+  .header-heading {
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 700;
+  }
+  .header-cam-icon {
+    color: blue;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    margin-top: 14px;
+  }
+  .header-first-para {
+    color: blue;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-top: 24px;
+  }
+  .header-second-div {
+    width: 13%;
+    height: 28px;
+  }
+  .header-second-div {
+    font-size: 22px;
+  }
+}
+
+.header-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.header-icons-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.header-last-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 4px 0px #ededed;
+  padding: 6px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.link-header {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .header-ul {
+    width: 15%;
+  }
+  .header-icons-div {
+    width: 5%;
+  }
+  .header-last-card {
+    height: 50px;
+  }
+}
