@@ -44,8 +44,8 @@ const CardList = props => {
         const blockCard = () => {
           addBlockList(each)
           setIds(prev => [...prev, each.id])
+          console.log(ids)
         }
-        console.log(ids)
         return (
           <li className={`card-list-li-card ${color}`}>
             <div className="name-img-card">
